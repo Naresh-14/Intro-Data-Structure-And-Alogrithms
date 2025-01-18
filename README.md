@@ -1,3 +1,3 @@
 # Intro-Data-Structure-And-Alogrithms
 
-#C++ STL Part-1
+C++ STL Part-1
