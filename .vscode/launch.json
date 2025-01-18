@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/workspaces/Intro-Data-Structure-And-Alogrithms/C++ STL part-1/Pair/build/Debug/vector",
-      "program": "/workspaces/Intro-Data-Structure-And-Alogrithms/C++ STL part-1/Pair/build/Debug/vector/build/Debug/outDebug",
+      "cwd": "/workspaces/Intro-Data-Structure-And-Alogrithms/C++ STL part-1/Pair/Iterators",
+      "program": "/workspaces/Intro-Data-Structure-And-Alogrithms/C++ STL part-1/Pair/Iterators/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
