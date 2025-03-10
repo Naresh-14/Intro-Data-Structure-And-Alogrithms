@@ -2,6 +2,13 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "solution",
+      "request": "launch",
+      "mainClass": "solution",
+      "projectName": "Intro-Data-Structure-And-Alogrithms_2e54c444"
+    },
+    {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",

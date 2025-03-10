@@ -1,0 +1,28 @@
+Problem Statement:
+Imagine you're a thief trying to steal money from houses on a street.
+
+Each house has some cash, but here's the catch: if you rob two houses next to each other, an alarm goes off and the police get called.
+
+You have an array 'arr' showing how much money is in each house. Your goal is to figure out the best way to rob houses without setting off alarms.
+
+Find the most money you can grab without hitting two houses in a row that are next to each other.
+
+Example 1:
+Input:
+4
+30 40 10 50
+
+Output:
+90
+
+Explanation: Steal from house number 2, then proceed to house number 4. The total amount you can steal without triggering the alarm is 40 + 50 = 90.
+
+Example 2:
+
+Input:
+6
+20 70 90 30 10 50
+
+
+Output:
+160

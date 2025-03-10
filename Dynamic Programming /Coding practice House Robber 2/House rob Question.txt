@@ -1,0 +1,38 @@
+House Robber 2
+Problem Statement :
+
+You're an expert thief scheming to rob houses along a circular street. Each house has a specific amount of money hidden. 
+
+The twist is that all the houses form a circle, with the first house being next to the last one. 
+
+Additionally, neighboring houses have a security system that calls the police if two adjacent houses are burglarized on the same night.
+
+Given an integer array ‘arr’ representing the amount of money in each house, your task is to find the maximum amount of money you can steal tonight without triggering the police.
+
+Example 1:
+
+Input:
+4
+50 20 10 70
+
+Output: 90
+
+Explanation:
+Steal from house number 2, then proceed to house number 4. The total amount you can steal without triggering the alarm is 20 + 70 = 90.
+
+Example 2:
+
+Input:
+6
+40 30 50 100 10 20
+
+Output: 150
+
+Explanation:
+Steal from house number 2, then move on to house number 4, and finally target house number 6. The total amount of money you can steal without setting off the alarm is 30 + 100 + 20, giving you a total of 150.
+
+Constraints:
+
+1 <= n <= 10^5
+
+0 <= arr[i] <= 2000

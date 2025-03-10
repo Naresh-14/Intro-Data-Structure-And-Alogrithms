@@ -1,0 +1,33 @@
+Problem Statement
+A Frog is situated on the first step of an N-stairs-long staircase. The Frog aspires to reach the Nth stair height, where the height at the ith stair is represented by 'i-1.' The energy lost during a jump from the ith to the jth stair is determined by the absolute value of the difference between the height at i-1 and the height at j-1.
+
+When Frog is on the ith stair, it has the option to jump to the i+1th stair, i+2th stair, ….., i+kth stair. Your objective is to determine the minimum total energy expended by the Frog to traverse from the 1st stair to the Nth stair.
+
+Example 1:
+
+Input:
+4 3
+80 140 120 100
+
+Output: 20
+
+
+Explanation: If the given ‘height’ array is [80, 140, 120, 100] and k is 3, then the answer is 20 as Frog can jump from the 1st stair to the last stair (|100-80| = 20 energy lost).
+
+Example 2:
+
+Input:
+5 3
+10 30 40 50 20
+
+Output: 30
+
+Explanation: The answer is 30 as Frog can jump from 1st stair to 2nd stair (|10-30| = 20 energy lost), then a jump from the 2nd stair to the 5th stair stair (|30-20| = 10 energy lost) Total energy lost = 20 + 10 = 30.
+
+Constraints:
+
+1 <= n <= 10^5
+
+1 <= height[i] <= 10^3
+
+1 <= k <= n
