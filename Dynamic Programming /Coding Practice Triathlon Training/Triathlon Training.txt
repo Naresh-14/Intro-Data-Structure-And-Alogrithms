@@ -1,0 +1,39 @@
+Triathlon Training
+Problem Statement :
+An athlete is undergoing a training schedule for 'N' days, with the option to engage in three different activities each day: Running, Cycling, or Swimming. Each activity yields a certain number of points daily. 
+
+To enhance all of his skills, the athlete is constrained from repeating the same activity on consecutive days. Can you assist the athlete in determining the maximum points he can accumulate?
+
+You are provided with a 2D array of size N*3, representing the points associated with each day and activity. 
+
+Your objective is to compute the highest possible number of points that an athlete can achieve.
+
+Example 1 :
+
+Input:
+2
+4 20 5
+7 50 9
+
+Output:
+55
+
+Explanation:   The maximum number of points that the athlete can achieve is 55. The athlete can swim on the 1st day (5 points) and do cycling on the 2nd day (50 points). Total = 5 + 50 = 55 points. 
+
+Example 2:
+
+Input:
+3
+1 2 3
+2 3 4
+3 4 5
+
+Output:
+11
+
+Explanation:   The maximum number of points that the athlete can achieve is 11. The athlete can do Swimming on the 1st day(3 points),  Cycling on the 2nd day(3 points), and again Swimming on the 3rd day(5 points). Total = 3 + 3 + 5 = 11 points. 
+
+Constraints:
+1 <= points.length <= 10^6
+1 <= points[i] <= 200
+

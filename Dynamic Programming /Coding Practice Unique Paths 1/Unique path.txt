@@ -1,0 +1,37 @@
+Problem Statement
+You are situated at the top-left cell (point 'X') of an m x n grid, and your goal is to reach the bottom-right cell (point 'Y') of the same grid. Your objective is to determine the total count of unique paths from point 'X' to point 'Y'. In other words, given the grid dimensions as integers 'm' and 'n', your task is to calculate the total number of distinct paths from the cell at ([0][0]) to the cell at ([m - 1][n - 1]).
+
+When navigating through the grid, you have the option to advance either to the right (increasing the column index) or downward (increasing the row index) at each step. 
+
+For instance, at a given position grid[i][j], you can choose to move to either grid[i + 1][j] or grid[i][j + 1].
+
+Example 1:
+
+Input:
+2 3
+
+Output: 3
+
+Explanation: 
+Given a 2 x 3 grid, possible paths are 
+path 1: (0, 0) → (0, 1) → (1, 1) → (1, 2)
+path 2: (0, 0) → (1, 0) → (1, 1) → (1, 2)
+path 3: (0, 0) → (0, 1) → (0, 2) → (1, 2)
+
+Example 2:
+
+Input: 1 4
+
+Output: 1
+
+Explanation: 
+
+Given a 1 x 4 grid, possible path : (0, 0) → (0, 1) → (0, 2) → (0, 3).
+
+Constraints:
+
+1 ≤ m ≤ 17
+
+1 ≤ n ≤ 17
+
+m is the number of rows and n is the number of columns in the grid.
