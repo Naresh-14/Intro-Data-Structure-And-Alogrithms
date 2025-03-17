@@ -1,0 +1,41 @@
+Minimum Path Sum
+Problem Statement : 
+
+You are given a grid of dimensions m x n containing non-negative numbers. 
+
+Determine the path from the top-left corner(0,0) to the bottom-right corner(m - 1, n - 1) that minimizes the total sum of numbers along the chosen route. 
+
+Note
+You can only move either down or right at any point in time  i.e. from grid[i][j] you can either go to grid[i + 1][j] or grid[i][j + 1].
+
+Example 1:
+
+Input: 
+2 3
+1 4 2
+1 2 9
+
+Output:
+13
+
+Explanation:  For m (rows) = 2, n (columns) = 3, Grid: [ (1, 4, 2], (1, 2, 9) ] the optimal path is (0,0) -> (1,0) -> (1,1) -> (1,2), which yields the minimum sum: 1 + 1 + 2 + 9 = 13.
+
+Example 2:
+
+Input:
+3 3
+1 2 3
+4 5 6
+7 8 9
+
+Output:
+21
+
+Explanation:  For  m (rows) = 3, n (columns) = 3, Grid: [ (1, 2, 3), (4, 5, 6), (7, 8, 9) ] the optimal path is (0,0) -> (0,1) -> (0,2) -> (1,2) -> (2,2), which yields the minimum sum: 1 + 2 + 3 + 6 + 9 = 21.
+
+Constraints:
+1 ≤ m ≤ 300
+1 ≤ n ≤ 300
+Where ‘m’ is the number of rows and ‘n’ is the number of columns in the grid.
+0 <= grid[i][j] <= 100
+
