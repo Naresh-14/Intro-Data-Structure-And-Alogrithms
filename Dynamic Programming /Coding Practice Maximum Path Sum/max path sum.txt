@@ -1,0 +1,47 @@
+Problem Statement
+Given an M*N grid containing integer values, determine the maximum sum achievable by following a path starting from any cell in the first row and ending at any cell in the last row. 
+
+The allowed movements include moving directly downward, diagonally downward to the left, or diagonally downward to the right.
+
+Specifically, from a cell located at coordinates (i, j), the three possible directions are as follows:
+
+Move down to the cell at coordinates (i+1, j).
+
+Move diagonally down to the left of the cell at coordinates (i+1, j-1).
+
+Move diagonally down to the right of the cell at coordinates (i+1, j+1).
+
+Example 1:
+
+Input:
+3 3
+10 40 50
+30 30 20
+30 20 20
+
+Output:
+110
+
+Explanation: 
+Given a 3 x 3 grid, the maximum path sum is 50 -> 30 -> 30. So, the sum will be 50 + 30 + 30 = 110
+
+Example 2:
+
+Input:
+2 2
+40 60
+30 40
+
+Output:
+100
+
+Explanation: 
+Given a 2 x 2 grid, the maximum path sum is 60 -> 40. So, the sum will be 60 + 40 = 100.
+
+Constraints:
+
+1 <= N <= 50
+
+1 <= M <= 50
+
+-10^5 <= grid[i][j] <= 10^5

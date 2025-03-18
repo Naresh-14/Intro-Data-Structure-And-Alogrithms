@@ -1,0 +1,35 @@
+Triangle
+Problem Statement :
+
+Given a triangular array, calculate the minimum path from top to bottom.
+
+Note: At each step, you can only move to an adjacent number of the row below. In other words, when at index i on the current row, the options for the next step are limited to either index i or index i + 1 on the row below.
+
+Example 1 :
+
+Input: 
+4
+5
+9 2
+12 8 3
+4 11 6 10
+
+Output:
+16
+
+Explanation:  For triangle = [ (5), (9,2), (12,8,3), (4,11,6,10) ] the optimal path is (0,0) -> (1,1) -> (2,2) -> (3,2), which yields the minimum sum: 5 + 2 + 3 + 6 = 16.
+
+Example 2 :
+
+Input:
+4
+10
+2 8
+1 5 12
+7 9 4 3
+
+Output:
+20
+
+Explanation: For triangle = [ [10], [ 2, 8], [1, 5, 12], [ 7, 9, 4 ,3] ] the optimal path is (0,0) -> (1,0) -> (2,0) -> (3,0), which yields the minimum sum: 10 + 2 + 1 + 7 = 20.
+
