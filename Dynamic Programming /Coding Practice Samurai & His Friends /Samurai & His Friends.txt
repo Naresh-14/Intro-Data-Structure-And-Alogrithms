@@ -1,0 +1,46 @@
+Problem Statement
+Samurai has a grid of chocolates with dimensions M x N. Positioned at the top-left corner (0, 0) is Samurai's friend Charlie, and at the top-right corner (0, N - 1) is his other friend Jack. 
+
+Both friends can move downward, collecting chocolates from the cells they pass through. When a friend passes through a cell, all chocolates in that cell are picked, reducing the count to zero.
+
+Charlie and Jack, when at coordinates (i, j), have the option to move to one of three adjacent cells in the row below: (i + 1, j - 1), (i + 1, j), or (i + 1, j + 1). 
+
+They have to stay inside the grid while moving. If both friends end up in the same cell, only one of them gets the chocolates.
+
+The aim is to find out the most chocolates Samurai can get with the help of his friends, following the given rules for movement.
+
+Example 1:
+
+Input:
+2 2
+50 40
+40 50
+
+Output:
+180
+
+Explanation: 
+Charlie begins at the top-left corner (0, 0) of a 3 x 3 grid. He goes to (1, 0) and then (2, 1), grabbing a total of 55 chocolates. Meanwhile, Jack starts at the top-right corner (0, 2), moves to (1, 1), and finally to (2, 2), collecting a total of 60 chocolates.
+
+Example 2:
+
+Input:
+3 3
+10 20 10
+30 20 10
+10 15 30
+
+Output:
+115
+
+Explanation: 
+Charlie begins at the top-left corner (0, 0) of a 3 x 3 grid. He moves to (1, 1), collecting a total of 100 chocolates. Simultaneously, Jack starts at the top-right corner (0, 1) and moves to (1, 0), collecting a total of 80 chocolates.
+
+Constraints:
+
+2 <= N <= 100
+
+2 <= M <= 100
+
+0 <= matrix[i][j] <= 10^3
+
