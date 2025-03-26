@@ -1,0 +1,35 @@
+Subset Sum
+Problem Statement :-
+
+Given an array ‘arr’ containing 'N' positive integers and an integer ‘k' your objective is to determine whether there exists a subset in the array whose sum is equal to ‘k.' 
+
+If such a subset is found, return true; otherwise, return false.
+
+Note
+A subset in an array is a group of elements that you pick out, and they can either stay in the same order as the original array or be rearranged.
+Example 1:
+
+Input:  
+4 7
+4 5 2 2
+
+Output:
+1
+
+Explanation:  For the subset {5, 2}, the sum is 7, which is equal to k
+
+Example 2:
+
+Input: 
+5 20
+7 2 5 4 3
+
+Output: 
+0
+
+Explanation:  In the provided array elements, there are no subsets whose sum equals 20.
+
+Constraints:
+1 <= N <= 10^5
+0 <= arr[i] <= 10^5
+0 <= k <= 10^3
