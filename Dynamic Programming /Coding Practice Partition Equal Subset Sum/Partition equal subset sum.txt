@@ -1,0 +1,26 @@
+Partition Equal Subset Sum
+Problem Statement :-
+
+Given an array of ‘N’ positive integers ‘arr’, your goal is to determine whether it is possible to divide the array into two subsets in a way that the sum of elements in each subset is equal.
+
+Example 1 :
+
+Input:
+5
+1 1 3 4 7
+
+Output:
+1
+
+Explanation:  The array can be divided into 2 subsets such as [1, 3, 4] and [1, 7]. The sum of each subset is 8.
+
+Example 2 :
+
+Input:
+4
+2 3 4 6
+
+Output:
+0
+
+Explanation:  The array can’t be partitioned into two subsets with equal sum.

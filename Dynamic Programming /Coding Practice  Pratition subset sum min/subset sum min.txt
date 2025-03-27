@@ -1,0 +1,44 @@
+Problem Statement
+You have been provided with an array, 'arr,' consisting of ‘n’ non-negative integers. Your objective is to partition this array into two subsets in a manner that minimizes the absolute difference between the sums of the subsets. 
+
+Your task is to identify the minimum absolute difference by considering various valid partitions of the array elements.
+
+Note
+A subset in an array is a group of elements that you pick out, and they can either stay in the same order as the original array or be rearranged.
+Note:
+
+Focus solely on determining the minimum absolute difference, taking into account any valid partition of the array elements.
+
+The subsets may not necessarily be contiguous.
+
+The subset sum refers to the sum of all elements within that particular subset.
+
+Example 1:
+
+Input:
+4
+80 20 70 10
+
+Output:
+0
+
+Explanation: The array can be partitioned into {20,70} and {10,80}.
+
+Example 2:
+
+Input:
+3
+5 3 4
+
+Output:
+2
+
+Explanation: The array can be partitioned into {5} and {3,4}.
+
+Constraints:
+
+1 <= n <= 100
+
+0 <= arr[i] <= 1000
+
+0 <= sum(arr) <= 100000
