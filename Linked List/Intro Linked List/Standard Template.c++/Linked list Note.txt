@@ -1,0 +1,49 @@
+Introduction
+Drawbacks of Arrays
+
+Fixed Size: 
+
+Arrays in most programming languages have a fixed size.
+
+Once you define the size of an array, it cannot be changed dynamically.
+
+This can lead to inefficiencies when the size of the data set is not known in advance or when it changes frequently.
+
+
+Contiguous Memory Requirement:
+
+Arrays require contiguous memory allocation.
+
+If a large enough block of memory is not available, it may not be possible to create an array of the required size.
+
+linked list
+
+Linked List
+Node
+
+A node is a basic unit that holds data and may contain a reference or link to another node.
+
+Nodes play a crucial role in forming various data structures, and one such structure is the linked list.
+
+Linked list intro
+
+What is a linked list?
+
+A linked list is a linear data structure consisting of nodes, where each node contains a data element and a reference (or link) to the next node in the sequence.
+Head
+
+It is the starting point for traversing the entire list, providing easy access to the initial node.
+Tail
+
+It is the last node in a linked list, signaling the end. It efficiently facilitates appending new nodes to the list.
+
+Linked list intro
+
+Practical Examples
+Music Playlist
+
+To implement the music playlist, we will use a linked list, where each node represents a song and contains information about the song's title, artist, and a reference to the next song in the playlist.
+
+The head of the linked list will represent the first song to play, and the tail will point to the last song in the playlist
+
+Linked list intro
