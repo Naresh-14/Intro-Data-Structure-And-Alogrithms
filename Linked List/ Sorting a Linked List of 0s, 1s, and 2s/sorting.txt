@@ -1,0 +1,40 @@
+Problem Statement
+You have a linked list, and each node contains an integer value (0, 1, or 2). 
+
+Your task is to sort the linked list in non-decreasing order and then return the head of the sorted list.
+
+Example 1:
+
+Input:
+7
+1 2 0 0 2 1 0
+
+Output:
+
+0 0 0 1 1 2 2
+
+
+Explanation: 
+
+Given Linked List:
+Sort a Linked List of 0's, 1's and 2's Example 1
+
+The sorted Linked List after rearranging the given Linked List :
+Sort a Linked List of 0's, 1's and 2's Example 1
+
+Example 2:
+
+Input:
+3
+0 1 0
+
+Output:
+0 0 1
+
+Explanation:
+
+Given Linked List:
+Sort a Linked List of 0's, 1's and 2's Example 2
+
+The sorted Linked List after rearranging the given Linked List :
+Sort a Linked List of 0's, 1's and 2's Example 2
